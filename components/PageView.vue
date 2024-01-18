@@ -3,19 +3,17 @@
 </script>
 
 <template>
-  <main>
-    <div class="main-content flex-c relative h-100dvh flex-col bg-#fff dark:bg-black">
-      <div class="absolute inset-0 overflow-hidden">
-        <div class="jumbo absolute opacity-50 -inset-[10px]" />
-      </div>
-      <h1 class="flex-y-c font-Inter relative select-none text-5xl text-gray-800 font-bold transition-colors dark:(text-#fff opacity-80)">
-        404
-      </h1>
-      <div class="mt-4">
-        <DarkToggle />
-      </div>
+  <div class="main-content relative h-100dvh flex-c flex-col bg-#fff dark:bg-black">
+    <div class="absolute inset-0 overflow-hidden">
+      <div class="jumbo absolute opacity-50 -inset-[10px]" />
     </div>
-  </main>
+    <h1 class="relative flex-y-c select-none text-5xl text-gray-800 font-bold font-Inter transition-colors dark:(text-#fff opacity-80)">
+      404
+    </h1>
+    <div class="mt-4">
+      <DarkToggle />
+    </div>
+  </div>
 </template>
 
 <style lang="scss" scoped>
