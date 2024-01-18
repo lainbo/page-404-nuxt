@@ -8,7 +8,7 @@
     "dev": "nuxi dev",
     "generate": "nuxi generate",
     "postinstall": "nuxi prepare",
-    "start": "node .output/server/index.mjs",
+    "start": "PORT=3010 node .output/server/index.mjs",
     "start:generate": "npx serve .output/public",
     "lint": "eslint .",
     "typecheck": "vue-tsc --noEmit"
